@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -47,14 +47,6 @@ F0 "ignitionD" 50
 F1 "blackpowder_ignition_circuit.sch" 50
 F2 "ignite" I L 3550 2400 50 
 F3 "~cont~" I L 3550 2550 50 
-$EndSheet
-$Sheet
-S 600  1200 550  300 
-U 5ED2D9A2
-F0 "CAS_bus" 39
-F1 "hardware-sch-blocks/CAS_bus/CAS_bus.sch" 20
-F2 "I2C0_SCL" I R 1150 1400 50 
-F3 "I2C0_SDA" I R 1150 1300 50 
 $EndSheet
 NoConn ~ 1450 1500
 $Comp
@@ -348,4 +340,230 @@ Wire Notes Line
 	3250 3500 3250 550 
 NoConn ~ 2850 2200
 NoConn ~ 2850 2300
+$Comp
+L star-common-lib:CAS_stacking J1
+U 1 1 5EF8309E
+P 1800 6150
+F 0 "J1" H 1800 7367 50  0000 C CNN
+F 1 "CAS_stacking" H 1800 7276 50  0000 C CNN
+F 2 "star-common-lib:CAS_physical" H 1900 7100 50  0001 C CNN
+F 3 "" H 1900 7100 50  0001 C CNN
+	1    1800 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 7100
+NoConn ~ 4400 7000
+NoConn ~ 4400 6900
+NoConn ~ 4400 6800
+NoConn ~ 4400 6700
+NoConn ~ 4400 6600
+NoConn ~ 4400 6500
+NoConn ~ 4400 6400
+NoConn ~ 4400 6300
+NoConn ~ 4400 6200
+NoConn ~ 4400 6100
+NoConn ~ 4400 6000
+NoConn ~ 4400 5900
+NoConn ~ 4400 5800
+NoConn ~ 4400 5700
+NoConn ~ 4400 5600
+NoConn ~ 4400 5500
+NoConn ~ 4400 5400
+NoConn ~ 4400 5300
+NoConn ~ 4400 5200
+NoConn ~ 3000 7100
+NoConn ~ 3000 7000
+NoConn ~ 3000 6900
+NoConn ~ 3000 6800
+NoConn ~ 3000 6700
+NoConn ~ 3000 6600
+NoConn ~ 3000 6500
+NoConn ~ 3000 6400
+NoConn ~ 3000 6300
+NoConn ~ 3000 6200
+NoConn ~ 3000 6100
+NoConn ~ 3000 6000
+NoConn ~ 3000 5900
+NoConn ~ 3000 5800
+NoConn ~ 3000 5700
+NoConn ~ 3000 5600
+NoConn ~ 3000 5500
+NoConn ~ 3000 5400
+NoConn ~ 3000 5300
+NoConn ~ 3000 5200
+NoConn ~ 2500 7100
+NoConn ~ 2500 6800
+NoConn ~ 2500 6700
+NoConn ~ 2500 6600
+NoConn ~ 2500 6500
+NoConn ~ 2500 6400
+NoConn ~ 2500 6300
+NoConn ~ 2500 6200
+NoConn ~ 2500 6100
+NoConn ~ 2500 6000
+NoConn ~ 2500 5900
+NoConn ~ 2500 5700
+NoConn ~ 2500 5600
+NoConn ~ 2500 5500
+NoConn ~ 2500 5400
+NoConn ~ 2500 5300
+NoConn ~ 2500 5200
+NoConn ~ 1100 5200
+NoConn ~ 1100 5300
+NoConn ~ 1100 5400
+NoConn ~ 1100 5500
+NoConn ~ 1100 5600
+NoConn ~ 1100 5700
+NoConn ~ 1100 6100
+NoConn ~ 1100 6200
+NoConn ~ 1100 6300
+NoConn ~ 1100 6400
+NoConn ~ 1100 6500
+NoConn ~ 1100 6600
+NoConn ~ 1100 6700
+NoConn ~ 1100 6800
+NoConn ~ 1100 7100
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 5EFA22B2
+P 850 6900
+F 0 "#PWR0125" H 850 6750 50  0001 C CNN
+F 1 "+3.3V" H 865 7073 50  0000 C CNN
+F 2 "" H 850 6900 50  0001 C CNN
+F 3 "" H 850 6900 50  0001 C CNN
+	1    850  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5EFA5DEC
+P 850 7000
+F 0 "#PWR0126" H 850 6750 50  0001 C CNN
+F 1 "GND" H 855 6827 50  0000 C CNN
+F 2 "" H 850 7000 50  0001 C CNN
+F 3 "" H 850 7000 50  0001 C CNN
+	1    850  7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  7000 1100 7000
+Wire Wire Line
+	1100 6900 850  6900
+NoConn ~ 1100 5900
+Wire Wire Line
+	800  5800 1100 5800
+NoConn ~ 1100 6000
+Text Label 800  5800 0    50   ~ 0
+SCL
+$Comp
+L star-common-lib:CAS_stacking J1
+U 2 1 5EF84BE0
+P 3700 6150
+F 0 "J1" H 3700 7367 50  0000 C CNN
+F 1 "CAS_stacking" H 3700 7276 50  0000 C CNN
+F 2 "star-common-lib:CAS_physical" H 3800 7100 50  0001 C CNN
+F 3 "" H 3800 7100 50  0001 C CNN
+	2    3700 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5800 2500 5800
+Text Label 2800 5800 2    50   ~ 0
+SDA
+Text Label 1150 1400 0    50   ~ 0
+SCL
+Text Label 1150 1300 0    50   ~ 0
+SDA
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5F005042
+P 2700 6900
+F 0 "#PWR05" H 2700 6750 50  0001 C CNN
+F 1 "+3.3V" H 2715 7073 50  0000 C CNN
+F 2 "" H 2700 6900 50  0001 C CNN
+F 3 "" H 2700 6900 50  0001 C CNN
+	1    2700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F00685B
+P 2700 7000
+F 0 "#PWR06" H 2700 6750 50  0001 C CNN
+F 1 "GND" H 2705 6827 50  0000 C CNN
+F 2 "" H 2700 7000 50  0001 C CNN
+F 3 "" H 2700 7000 50  0001 C CNN
+	1    2700 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6900 2700 6900
+Wire Wire Line
+	2500 7000 2700 7000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EFD7138
+P 5300 3950
+F 0 "#FLG0101" H 5300 4025 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 4123 50  0000 C CNN
+F 2 "" H 5300 3950 50  0001 C CNN
+F 3 "~" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EFD782F
+P 5700 3800
+F 0 "#FLG0102" H 5700 3875 50  0001 C CNN
+F 1 "PWR_FLAG" H 5700 3973 50  0000 C CNN
+F 2 "" H 5700 3800 50  0001 C CNN
+F 3 "~" H 5700 3800 50  0001 C CNN
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5EFD7C86
+P 5700 3800
+F 0 "#PWR0127" H 5700 3550 50  0001 C CNN
+F 1 "GND" H 5705 3627 50  0000 C CNN
+F 2 "" H 5700 3800 50  0001 C CNN
+F 3 "" H 5700 3800 50  0001 C CNN
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0128
+U 1 1 5EFD816F
+P 5300 3950
+F 0 "#PWR0128" H 5300 3800 50  0001 C CNN
+F 1 "+BATT" H 5315 4123 50  0000 C CNN
+F 2 "" H 5300 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EFDC2FD
+P 6050 3950
+F 0 "#FLG0103" H 6050 4025 50  0001 C CNN
+F 1 "PWR_FLAG" H 6050 4123 50  0000 C CNN
+F 2 "" H 6050 3950 50  0001 C CNN
+F 3 "~" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0129
+U 1 1 5EFDD50C
+P 6050 3950
+F 0 "#PWR0129" H 6050 3800 50  0001 C CNN
+F 1 "+3.3V" H 6065 4123 50  0000 C CNN
+F 2 "" H 6050 3950 50  0001 C CNN
+F 3 "" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
