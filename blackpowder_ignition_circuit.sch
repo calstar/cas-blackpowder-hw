@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -51,7 +51,7 @@ AR Path="/5EB223EA/5EAFF72B" Ref="R21"  Part="1"
 AR Path="/5EB223EE/5EAFF72B" Ref="R25"  Part="1" 
 AR Path="/5EB223F2/5EAFF72B" Ref="R29"  Part="1" 
 F 0 "R1" H 3920 4196 50  0000 L CNN
-F 1 "R" H 3920 4105 50  0000 L CNN
+F 1 "100k" H 3920 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 4150 50  0001 C CNN
 F 3 "~" H 3850 4150 50  0001 C CNN
 	1    3850 4150
@@ -73,7 +73,7 @@ AR Path="/5EB223EA/5EAFF737" Ref="R23"  Part="1"
 AR Path="/5EB223EE/5EAFF737" Ref="R27"  Part="1" 
 AR Path="/5EB223F2/5EAFF737" Ref="R31"  Part="1" 
 F 0 "R3" H 4920 3946 50  0000 L CNN
-F 1 "R" H 4920 3855 50  0000 L CNN
+F 1 "100k" H 4920 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3900 50  0001 C CNN
 F 3 "~" H 4850 3900 50  0001 C CNN
 	1    4850 3900
@@ -104,7 +104,7 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5EAFF743
-P 5300 3300
+P 5300 4150
 AR Path="/5EAFF743" Ref="R?"  Part="1" 
 AR Path="/5EAF9C8B/5EAFF743" Ref="R4"  Part="1" 
 AR Path="/5EB11141/5EAFF743" Ref="R?"  Part="1" 
@@ -116,11 +116,11 @@ AR Path="/5EB223E6/5EAFF743" Ref="R20"  Part="1"
 AR Path="/5EB223EA/5EAFF743" Ref="R24"  Part="1" 
 AR Path="/5EB223EE/5EAFF743" Ref="R28"  Part="1" 
 AR Path="/5EB223F2/5EAFF743" Ref="R32"  Part="1" 
-F 0 "R4" H 5370 3346 50  0000 L CNN
-F 1 "R" H 5370 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 3300 50  0001 C CNN
-F 3 "~" H 5300 3300 50  0001 C CNN
-	1    5300 3300
+F 0 "R4" H 5370 4196 50  0000 L CNN
+F 1 "50k" H 5370 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 4150 50  0001 C CNN
+F 3 "~" H 5300 4150 50  0001 C CNN
+	1    5300 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -134,15 +134,8 @@ Connection ~ 4300 3750
 Wire Wire Line
 	4300 3750 4300 3800
 Wire Wire Line
-	5300 3450 5300 3500
-Wire Wire Line
 	3750 4000 3850 4000
 Connection ~ 3850 4000
-Wire Wire Line
-	5450 3500 5300 3500
-Connection ~ 5300 3500
-Wire Wire Line
-	5300 3500 5300 3550
 $Comp
 L power:GND #PWR?
 U 1 1 5EAFF758
@@ -190,7 +183,7 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EAFF764
-P 5300 3950
+P 5300 4300
 AR Path="/5EAFF764" Ref="#PWR?"  Part="1" 
 AR Path="/5EAF9C8B/5EAFF764" Ref="#PWR0103"  Part="1" 
 AR Path="/5EB11141/5EAFF764" Ref="#PWR?"  Part="1" 
@@ -202,11 +195,11 @@ AR Path="/5EB223E6/5EAFF764" Ref="#PWR0127"  Part="1"
 AR Path="/5EB223EA/5EAFF764" Ref="#PWR0133"  Part="1" 
 AR Path="/5EB223EE/5EAFF764" Ref="#PWR0139"  Part="1" 
 AR Path="/5EB223F2/5EAFF764" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR0103" H 5300 3700 50  0001 C CNN
-F 1 "GND" H 5305 3777 50  0000 C CNN
-F 2 "" H 5300 3950 50  0001 C CNN
-F 3 "" H 5300 3950 50  0001 C CNN
-	1    5300 3950
+F 0 "#PWR0103" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5305 4127 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -234,7 +227,7 @@ $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5EAFF770
-P 5300 3150
+P 5300 3550
 AR Path="/5EAFF770" Ref="#PWR?"  Part="1" 
 AR Path="/5EAF9C8B/5EAFF770" Ref="#PWR0105"  Part="1" 
 AR Path="/5EB11141/5EAFF770" Ref="#PWR?"  Part="1" 
@@ -246,11 +239,11 @@ AR Path="/5EB223E6/5EAFF770" Ref="#PWR0129"  Part="1"
 AR Path="/5EB223EA/5EAFF770" Ref="#PWR0135"  Part="1" 
 AR Path="/5EB223EE/5EAFF770" Ref="#PWR0141"  Part="1" 
 AR Path="/5EB223F2/5EAFF770" Ref="#PWR0147"  Part="1" 
-F 0 "#PWR0105" H 5300 3000 50  0001 C CNN
-F 1 "+3.3V" H 5315 3323 50  0000 C CNN
-F 2 "" H 5300 3150 50  0001 C CNN
-F 3 "" H 5300 3150 50  0001 C CNN
-	1    5300 3150
+F 0 "#PWR0105" H 5300 3400 50  0001 C CNN
+F 1 "+3.3V" H 5315 3723 50  0000 C CNN
+F 2 "" H 5300 3550 50  0001 C CNN
+F 3 "" H 5300 3550 50  0001 C CNN
+	1    5300 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -292,7 +285,7 @@ AR Path="/5EB223EE/5EAFF77D" Ref="J8"  Part="1"
 AR Path="/5EB223F2/5EAFF77D" Ref="J9"  Part="1" 
 F 0 "J2" H 4580 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 4580 3101 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 4500 3200 50  0001 C CNN
+F 2 "star-common-lib:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 4500 3200 50  0001 C CNN
 F 3 "~" H 4500 3200 50  0001 C CNN
 	1    4500 3200
 	1    0    0    -1  
@@ -301,31 +294,14 @@ Wire Wire Line
 	4300 3100 4300 3200
 Text HLabel 3750 4000 0    50   Input ~ 0
 ignite
-Text HLabel 5450 3500 2    50   Input ~ 0
+Text HLabel 5550 4000 2    50   Input ~ 0
 ~cont~
-$Comp
-L Connector_Generic:Conn_01x03 J9
-U 1 1 5EF99B5F
-P 4500 3550
-AR Path="/5EB12D6D/5EF99B5F" Ref="J9"  Part="1" 
-AR Path="/5EB1278B/5EF99B5F" Ref="J6"  Part="1" 
-AR Path="/5EB12B7D/5EF99B5F" Ref="J7"  Part="1" 
-AR Path="/5EAF9C8B/5EF99B5F" Ref="J10"  Part="1" 
-F 0 "J10" H 4580 3592 50  0000 L CNN
-F 1 "Conn_01x03" H 4580 3501 50  0000 L CNN
-F 2 "star-common-lib:PWR163" H 4500 3550 50  0001 C CNN
-F 3 "~" H 4500 3550 50  0001 C CNN
-	1    4500 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 3650 4300 3750
-Wire Wire Line
-	4300 3300 4300 3450
 $Comp
 L power:GND #PWR?
 U 1 1 5EF9AB74
-P 4100 3550
+P 4100 3500
 AR Path="/5EF9AB74" Ref="#PWR?"  Part="1" 
 AR Path="/5EAF9C8B/5EF9AB74" Ref="#PWR010"  Part="1" 
 AR Path="/5EB11141/5EF9AB74" Ref="#PWR?"  Part="1" 
@@ -337,15 +313,33 @@ AR Path="/5EB223E6/5EF9AB74" Ref="#PWR?"  Part="1"
 AR Path="/5EB223EA/5EF9AB74" Ref="#PWR?"  Part="1" 
 AR Path="/5EB223EE/5EF9AB74" Ref="#PWR?"  Part="1" 
 AR Path="/5EB223F2/5EF9AB74" Ref="#PWR?"  Part="1" 
-F 0 "#PWR010" H 4100 3300 50  0001 C CNN
-F 1 "GND" H 4105 3377 50  0000 C CNN
-F 2 "" H 4100 3550 50  0001 C CNN
-F 3 "" H 4100 3550 50  0001 C CNN
-	1    4100 3550
+F 0 "#PWR010" H 4100 3250 50  0001 C CNN
+F 1 "GND" H 4105 3327 50  0000 C CNN
+F 2 "" H 4100 3500 50  0001 C CNN
+F 3 "" H 4100 3500 50  0001 C CNN
+	1    4100 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 3550 4300 3550
-Text Notes 2950 3550 0    50   ~ 0
-Resistor, pin 2 is heatsink
+	5300 4000 5300 3950
+Wire Wire Line
+	5550 4000 5300 4000
+Connection ~ 5300 4000
+$Comp
+L star-common-lib:R_Heatsink R6
+U 1 1 5F271B62
+P 4300 3000
+AR Path="/5EB12B7D/5F271B62" Ref="R6"  Part="1" 
+AR Path="/5EB12D6D/5F271B62" Ref="R10"  Part="1" 
+AR Path="/5EB1278B/5F271B62" Ref="R2"  Part="1" 
+AR Path="/5EAF9C8B/5F271B62" Ref="R14"  Part="1" 
+F 0 "R14" H 4370 2546 50  0000 L CNN
+F 1 "3R" H 4370 2455 50  0000 L CNN
+F 2 "star-common-lib:PWR163" H 4300 3000 50  0001 C CNN
+F 3 "" H 4300 3000 50  0001 C CNN
+	1    4300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3350 4300 3300
 $EndSCHEMATC
