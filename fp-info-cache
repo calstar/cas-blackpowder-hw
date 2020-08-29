@@ -1,4 +1,4 @@
-19121309735616781
+19143699835473781
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -84133,6 +84133,13 @@ star-common-lib
 10
 10
 star-common-lib
+744316150
+
+
+0
+2
+2
+star-common-lib
 BMP388
 
 
@@ -84147,6 +84154,20 @@ CAS_physical
 80
 80
 star-common-lib
+CST0612-FC-R002E
+2m current sense resistor
+shunt
+0
+4
+4
+star-common-lib
+CUI_PJ-047AH
+
+
+0
+5
+4
+star-common-lib
 FTMH-120-03-F-DV-P
 Samtec LSHM-DV HIGH SPEED HERMAPHRODITIC STRIP 40 PINS UNSHIELDED
 0.5mm samtec lshm razor
@@ -84160,6 +84181,34 @@ JTAG ARM SMD connector
 0
 10
 10
+star-common-lib
+IRIS_Physical
+
+IRIS
+0
+72
+37
+star-common-lib
+IRIS_Power_Physical
+
+IRIS
+0
+46
+11
+star-common-lib
+LTC3110
+
+
+0
+25
+25
+star-common-lib
+MAX17261
+
+
+0
+15
+15
 star-common-lib
 Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal
 Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-02A2, example for new mpn: 39-30-0020, 1 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
@@ -84182,6 +84231,41 @@ PWR163
 3
 3
 star-common-lib
+Powerpole_1336G1
+
+
+0
+2
+2
+star-common-lib
+SCCR20B335PRB
+
+
+0
+2
+2
+star-common-lib
+TPS2121
+
+
+0
+12
+12
+star-common-lib
+TPS55340
+
+
+0
+15
+14
+star-common-lib
+TPSM53604
+
+
+0
+15
+15
+star-common-lib
 TSM-103-01-L-SV
 
 
@@ -84202,6 +84286,20 @@ Through Hole Mount Test Points
 0
 1
 1
+star-common-lib
+VLS6045AF
+
+
+0
+2
+2
+star-common-lib
+WSON-6-1EP_2x2mm_Hand_Solder
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+9
+7
 star-common-lib
 airbears
 Imported from Airbears-launch.svg
