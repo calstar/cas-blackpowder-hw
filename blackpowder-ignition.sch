@@ -14,54 +14,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP3
+L Jumper:SolderJumper_3_Open JP3
 U 1 1 5ED6038D
-P 7250 5750
-F 0 "JP3" V 7296 5818 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 7750 5250 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7250 5750 50  0001 C CNN
-F 3 "~" H 7250 5750 50  0001 C CNN
-	1    7250 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0139
-U 1 1 5ED64CA6
-P 7250 5550
-F 0 "#PWR0139" H 7250 5400 50  0001 C CNN
-F 1 "+3.3V" H 7265 5723 50  0000 C CNN
-F 2 "" H 7250 5550 50  0001 C CNN
-F 3 "" H 7250 5550 50  0001 C CNN
-	1    7250 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0140
-U 1 1 5ED6509D
-P 7250 5950
-F 0 "#PWR0140" H 7250 5700 50  0001 C CNN
-F 1 "GND" H 7255 5777 50  0000 C CNN
-F 2 "" H 7250 5950 50  0001 C CNN
-F 3 "" H 7250 5950 50  0001 C CNN
-	1    7250 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP2
-U 1 1 5ED672FE
 P 6150 5750
-F 0 "JP2" V 6196 5818 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 6650 5250 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6150 5750 50  0001 C CNN
+F 0 "JP3" V 6196 5818 50  0000 L CNN
+F 1 "SolderJumper_3" V 6650 5250 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6150 5750 50  0001 C CNN
 F 3 "~" H 6150 5750 50  0001 C CNN
 	1    6150 5750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0141
-U 1 1 5ED67304
+L power:+3.3V #PWR0139
+U 1 1 5ED64CA6
 P 6150 5550
-F 0 "#PWR0141" H 6150 5400 50  0001 C CNN
+F 0 "#PWR0139" H 6150 5400 50  0001 C CNN
 F 1 "+3.3V" H 6165 5723 50  0000 C CNN
 F 2 "" H 6150 5550 50  0001 C CNN
 F 3 "" H 6150 5550 50  0001 C CNN
@@ -69,10 +36,10 @@ F 3 "" H 6150 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0142
-U 1 1 5ED6730A
+L power:GND #PWR0140
+U 1 1 5ED6509D
 P 6150 5950
-F 0 "#PWR0142" H 6150 5700 50  0001 C CNN
+F 0 "#PWR0140" H 6150 5700 50  0001 C CNN
 F 1 "GND" H 6155 5777 50  0000 C CNN
 F 2 "" H 6150 5950 50  0001 C CNN
 F 3 "" H 6150 5950 50  0001 C CNN
@@ -80,36 +47,69 @@ F 3 "" H 6150 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 5ED672FE
+P 5450 5750
+F 0 "JP2" V 5496 5818 50  0000 L CNN
+F 1 "SolderJumper_3" V 5950 5250 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5450 5750 50  0001 C CNN
+F 3 "~" H 5450 5750 50  0001 C CNN
+	1    5450 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0141
+U 1 1 5ED67304
+P 5450 5550
+F 0 "#PWR0141" H 5450 5400 50  0001 C CNN
+F 1 "+3.3V" H 5465 5723 50  0000 C CNN
+F 2 "" H 5450 5550 50  0001 C CNN
+F 3 "" H 5450 5550 50  0001 C CNN
+	1    5450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5ED6730A
+P 5450 5950
+F 0 "#PWR0142" H 5450 5700 50  0001 C CNN
+F 1 "GND" H 5455 5777 50  0000 C CNN
+F 2 "" H 5450 5950 50  0001 C CNN
+F 3 "" H 5450 5950 50  0001 C CNN
+	1    5450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP1
 U 1 1 5ED68598
-P 5050 5750
-F 0 "JP1" V 5096 5818 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 5550 5250 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5050 5750 50  0001 C CNN
-F 3 "~" H 5050 5750 50  0001 C CNN
-	1    5050 5750
+P 4750 5750
+F 0 "JP1" V 4796 5818 50  0000 L CNN
+F 1 "SolderJumper_3" V 5250 5250 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4750 5750 50  0001 C CNN
+F 3 "~" H 4750 5750 50  0001 C CNN
+	1    4750 5750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0143
 U 1 1 5ED6859E
-P 5050 5550
-F 0 "#PWR0143" H 5050 5400 50  0001 C CNN
-F 1 "+3.3V" H 5065 5723 50  0000 C CNN
-F 2 "" H 5050 5550 50  0001 C CNN
-F 3 "" H 5050 5550 50  0001 C CNN
-	1    5050 5550
+P 4750 5550
+F 0 "#PWR0143" H 4750 5400 50  0001 C CNN
+F 1 "+3.3V" H 4765 5723 50  0000 C CNN
+F 2 "" H 4750 5550 50  0001 C CNN
+F 3 "" H 4750 5550 50  0001 C CNN
+	1    4750 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0144
 U 1 1 5ED685A4
-P 5050 5950
-F 0 "#PWR0144" H 5050 5700 50  0001 C CNN
-F 1 "GND" H 5055 5777 50  0000 C CNN
-F 2 "" H 5050 5950 50  0001 C CNN
-F 3 "" H 5050 5950 50  0001 C CNN
-	1    5050 5950
+P 4750 5950
+F 0 "#PWR0144" H 4750 5700 50  0001 C CNN
+F 1 "GND" H 4755 5777 50  0000 C CNN
+F 2 "" H 4750 5950 50  0001 C CNN
+F 3 "" H 4750 5950 50  0001 C CNN
+	1    4750 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -145,11 +145,11 @@ F 3 "" H 4650 4200 50  0001 C CNN
 	1    4650 4200
 	1    0    0    -1  
 $EndComp
-Text Label 5200 5750 0    50   ~ 0
+Text Label 4900 5750 0    50   ~ 0
 A0
-Text Label 6300 5750 0    50   ~ 0
+Text Label 5600 5750 0    50   ~ 0
 A1
-Text Label 7400 5750 0    50   ~ 0
+Text Label 6300 5750 0    50   ~ 0
 A2
 Text Notes 2200 3700 0    100  ~ 0
 I/O Expander
@@ -162,11 +162,7 @@ Ignition Circuits
 Text Notes 4550 5000 0    100  ~ 0
 Power
 Wire Notes Line
-	7800 5150 7800 6350
-Wire Notes Line
-	4500 5150 7800 5150
-Wire Notes Line
-	4500 6350 7800 6350
+	6800 5150 6800 6350
 $Comp
 L star-common-lib:CAS_stacking J1
 U 1 1 5EF8309E
@@ -406,18 +402,18 @@ U 5FEF0F88
 F0 "IgnitionAB" 50
 F1 "blackpowder_ignition_circuit.sch" 39
 F2 "igniteA" I L 900 850 50 
-F3 "contA" I L 900 950 50 
+F3 "~contA~" I L 900 950 50 
 F4 "igniteB" I L 900 1050 50 
-F5 "contB" I L 900 1150 50 
+F5 "~contB~" I L 900 1150 50 
 $EndSheet
 Text Label 900  850  2    50   ~ 0
-igniteA
-Text Label 900  950  2    50   ~ 0
-contA
-Text Label 900  1050 2    50   ~ 0
 igniteB
+Text Label 900  950  2    50   ~ 0
+~contB~
+Text Label 900  1050 2    50   ~ 0
+igniteA
 Text Label 900  1150 2    50   ~ 0
-contB
+~contA~
 $Comp
 L power:+5V #PWR0101
 U 1 1 5FF1787D
@@ -450,27 +446,27 @@ U 5FEA8A39
 F0 "IgnitionCD" 50
 F1 "blackpowder_ignition_circuit.sch" 39
 F2 "igniteA" I L 900 1600 50 
-F3 "contA" I L 900 1700 50 
+F3 "~contA~" I L 900 1700 50 
 F4 "igniteB" I L 900 1800 50 
-F5 "contB" I L 900 1900 50 
+F5 "~contB~" I L 900 1900 50 
 $EndSheet
 Text Label 900  1600 2    50   ~ 0
-igniteC
-Text Label 900  1700 2    50   ~ 0
-contC
-Text Label 900  1800 2    50   ~ 0
 igniteD
+Text Label 900  1700 2    50   ~ 0
+~contD~
+Text Label 900  1800 2    50   ~ 0
+igniteC
 Text Label 900  1900 2    50   ~ 0
-contD
+~contC~
 $Sheet
 S 900  2200 550  500 
 U 5FEBBAE4
 F0 "IgnitionEF" 50
 F1 "blackpowder_ignition_circuit.sch" 39
 F2 "igniteA" I L 900 2300 50 
-F3 "contA" I L 900 2400 50 
+F3 "~contA~" I L 900 2400 50 
 F4 "igniteB" I L 900 2500 50 
-F5 "contB" I L 900 2600 50 
+F5 "~contB~" I L 900 2600 50 
 $EndSheet
 $Sheet
 S 900  2950 550  500 
@@ -478,26 +474,26 @@ U 5FEBBAEE
 F0 "IgnitionGH" 50
 F1 "blackpowder_ignition_circuit.sch" 39
 F2 "igniteA" I L 900 3050 50 
-F3 "contA" I L 900 3150 50 
+F3 "~contA~" I L 900 3150 50 
 F4 "igniteB" I L 900 3250 50 
-F5 "contB" I L 900 3350 50 
+F5 "~contB~" I L 900 3350 50 
 $EndSheet
 Text Label 900  2300 2    50   ~ 0
-igniteE
-Text Label 900  2400 2    50   ~ 0
-contE
-Text Label 900  2500 2    50   ~ 0
 igniteF
+Text Label 900  2400 2    50   ~ 0
+~contF~
+Text Label 900  2500 2    50   ~ 0
+igniteE
 Text Label 900  2600 2    50   ~ 0
-contF
+~contE~
 Text Label 900  3050 2    50   ~ 0
-igniteG
-Text Label 900  3150 2    50   ~ 0
-contG
-Text Label 900  3250 2    50   ~ 0
 igniteH
+Text Label 900  3150 2    50   ~ 0
+~contH~
+Text Label 900  3250 2    50   ~ 0
+igniteG
 Text Label 900  3350 2    50   ~ 0
-contH
+~contG~
 $Comp
 L Connector:TestPoint TP1
 U 1 1 600A07BA
@@ -562,13 +558,13 @@ F 3 "" H 2700 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3750 2900 0    50   ~ 0
-contH
+~contH~
 Text Label 3750 2700 0    50   ~ 0
-contG
+~contG~
 Text Label 3750 2500 0    50   ~ 0
-contF
+~contF~
 Text Label 3750 2300 0    50   ~ 0
-contE
+~contE~
 Text Label 3750 2800 0    50   ~ 0
 igniteH
 Text Label 3750 2600 0    50   ~ 0
@@ -659,17 +655,17 @@ A1
 Text Label 2350 2900 2    50   ~ 0
 A2
 Text Label 3750 2000 0    50   ~ 0
-contD
+~contD~
 Text Label 3750 1900 0    50   ~ 0
 igniteD
 Text Label 3750 1800 0    50   ~ 0
-contC
+~contC~
 Text Label 3750 1600 0    50   ~ 0
-contB
+~contB~
 Text Label 3750 1500 0    50   ~ 0
 igniteB
 Text Label 3750 1400 0    50   ~ 0
-contA
+~contA~
 Wire Notes Line
 	2150 3750 4600 3750
 Wire Notes Line
@@ -686,4 +682,8 @@ Wire Notes Line
 	4600 600  4600 3750
 Wire Notes Line
 	2150 600  2150 3750
+Wire Notes Line
+	4500 6350 6800 6350
+Wire Notes Line
+	6800 5150 4500 5150
 $EndSCHEMATC
