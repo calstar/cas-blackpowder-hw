@@ -13,94 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Transistor_FET:FDS6898A Q?
-U 1 1 5EAFF725
-P 6350 3600
-AR Path="/5EAFF725" Ref="Q?"  Part="1" 
-AR Path="/5EAF9C8B/5EAFF725" Ref="Q1"  Part="1" 
-AR Path="/5EB11141/5EAFF725" Ref="Q?"  Part="1" 
-AR Path="/5EB1278B/5EAFF725" Ref="Q2"  Part="1" 
-AR Path="/5EB12B7D/5EAFF725" Ref="Q3"  Part="1" 
-AR Path="/5EB12D6D/5EAFF725" Ref="Q4"  Part="1" 
-AR Path="/5EB1EA7C/5EAFF725" Ref="Q5"  Part="1" 
-AR Path="/5EB223E6/5EAFF725" Ref="Q5"  Part="1" 
-AR Path="/5EB223EA/5EAFF725" Ref="Q6"  Part="1" 
-AR Path="/5EB223EE/5EAFF725" Ref="Q7"  Part="1" 
-AR Path="/5EB223F2/5EAFF725" Ref="Q8"  Part="1" 
-AR Path="/5FEF0F88/5EAFF725" Ref="Q1"  Part="1" 
-AR Path="/5FEA8A39/5EAFF725" Ref="Q3"  Part="1" 
-AR Path="/5FEBBAE4/5EAFF725" Ref="Q5"  Part="1" 
-AR Path="/5FEBBAEE/5EAFF725" Ref="Q7"  Part="1" 
-F 0 "Q1" H 6554 3646 50  0000 L CNN
-F 1 "FDS6898A" H 6554 3555 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6550 3525 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDS6898A.pdf" H 6350 3600 50  0001 L CNN
-F 4 "FDS6898ACT-ND" H 6350 3600 50  0001 C CNN "DIGIKEY"
-F 5 "FDS6898A" H 6350 3600 50  0001 C CNN "MANF"
-	1    6350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EAFF72B
-P 4800 3750
-AR Path="/5EAFF72B" Ref="R?"  Part="1" 
-AR Path="/5EAF9C8B/5EAFF72B" Ref="R1"  Part="1" 
-AR Path="/5EB11141/5EAFF72B" Ref="R?"  Part="1" 
-AR Path="/5EB1278B/5EAFF72B" Ref="R5"  Part="1" 
-AR Path="/5EB12B7D/5EAFF72B" Ref="R9"  Part="1" 
-AR Path="/5EB12D6D/5EAFF72B" Ref="R13"  Part="1" 
-AR Path="/5EB1EA7C/5EAFF72B" Ref="R17"  Part="1" 
-AR Path="/5EB223E6/5EAFF72B" Ref="R17"  Part="1" 
-AR Path="/5EB223EA/5EAFF72B" Ref="R21"  Part="1" 
-AR Path="/5EB223EE/5EAFF72B" Ref="R25"  Part="1" 
-AR Path="/5EB223F2/5EAFF72B" Ref="R29"  Part="1" 
-AR Path="/5FEF0F88/5EAFF72B" Ref="R1"  Part="1" 
-AR Path="/5FEA8A39/5EAFF72B" Ref="R7"  Part="1" 
-AR Path="/5FEBBAE4/5EAFF72B" Ref="R13"  Part="1" 
-AR Path="/5FEBBAEE/5EAFF72B" Ref="R19"  Part="1" 
-F 0 "R1" H 4870 3796 50  0000 L CNN
-F 1 "50k" H 4870 3705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4730 3750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4800 3750 50  0001 C CNN
-F 4 "311-51KGRCT-ND" H 4800 3750 50  0001 C CNN "DIGIKEY"
-F 5 "RC0603JR-0751KL" H 4800 3750 50  0001 C CNN "MANF"
-	1    4800 3750
-	1    0    0    -1  
-$EndComp
 Connection ~ 6450 3350
 Wire Wire Line
 	6450 3350 6450 3400
-Wire Wire Line
-	4700 3600 4800 3600
-Connection ~ 4800 3600
-$Comp
-L power:GND #PWR?
-U 1 1 5EAFF758
-P 4800 3900
-AR Path="/5EAFF758" Ref="#PWR?"  Part="1" 
-AR Path="/5EAF9C8B/5EAFF758" Ref="#PWR0101"  Part="1" 
-AR Path="/5EB11141/5EAFF758" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1278B/5EAFF758" Ref="#PWR0107"  Part="1" 
-AR Path="/5EB12B7D/5EAFF758" Ref="#PWR0113"  Part="1" 
-AR Path="/5EB12D6D/5EAFF758" Ref="#PWR0119"  Part="1" 
-AR Path="/5EB1EA7C/5EAFF758" Ref="#PWR0125"  Part="1" 
-AR Path="/5EB223E6/5EAFF758" Ref="#PWR0125"  Part="1" 
-AR Path="/5EB223EA/5EAFF758" Ref="#PWR0131"  Part="1" 
-AR Path="/5EB223EE/5EAFF758" Ref="#PWR0137"  Part="1" 
-AR Path="/5EB223F2/5EAFF758" Ref="#PWR0143"  Part="1" 
-AR Path="/5FEF0F88/5EAFF758" Ref="#PWR0103"  Part="1" 
-AR Path="/5FEA8A39/5EAFF758" Ref="#PWR0121"  Part="1" 
-AR Path="/5FEBBAE4/5EAFF758" Ref="#PWR09"  Part="1" 
-AR Path="/5FEBBAEE/5EAFF758" Ref="#PWR027"  Part="1" 
-F 0 "#PWR0103" H 4800 3650 50  0001 C CNN
-F 1 "GND" H 4805 3727 50  0000 C CNN
-F 2 "" H 4800 3900 50  0001 C CNN
-F 3 "" H 4800 3900 50  0001 C CNN
-	1    4800 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EAFF75E
@@ -120,7 +35,7 @@ AR Path="/5FEF0F88/5EAFF75E" Ref="#PWR0104"  Part="1"
 AR Path="/5FEA8A39/5EAFF75E" Ref="#PWR0122"  Part="1" 
 AR Path="/5FEBBAE4/5EAFF75E" Ref="#PWR016"  Part="1" 
 AR Path="/5FEBBAEE/5EAFF75E" Ref="#PWR034"  Part="1" 
-F 0 "#PWR0104" H 6450 3550 50  0001 C CNN
+F 0 "#PWR034" H 6450 3550 50  0001 C CNN
 F 1 "GND" H 6455 3627 50  0000 C CNN
 F 2 "" H 6450 3800 50  0001 C CNN
 F 3 "" H 6450 3800 50  0001 C CNN
@@ -146,7 +61,7 @@ AR Path="/5FEF0F88/5EAFF764" Ref="#PWR0105"  Part="1"
 AR Path="/5FEA8A39/5EAFF764" Ref="#PWR0123"  Part="1" 
 AR Path="/5FEBBAE4/5EAFF764" Ref="#PWR022"  Part="1" 
 AR Path="/5FEBBAEE/5EAFF764" Ref="#PWR040"  Part="1" 
-F 0 "#PWR0105" H 7450 3650 50  0001 C CNN
+F 0 "#PWR040" H 7450 3650 50  0001 C CNN
 F 1 "GND" H 7455 3727 50  0000 C CNN
 F 2 "" H 7450 3900 50  0001 C CNN
 F 3 "" H 7450 3900 50  0001 C CNN
@@ -172,7 +87,7 @@ AR Path="/5FEF0F88/5EAFF76A" Ref="#PWR0106"  Part="1"
 AR Path="/5FEA8A39/5EAFF76A" Ref="#PWR0124"  Part="1" 
 AR Path="/5FEBBAE4/5EAFF76A" Ref="#PWR019"  Part="1" 
 AR Path="/5FEBBAEE/5EAFF76A" Ref="#PWR037"  Part="1" 
-F 0 "#PWR0106" H 7000 3400 50  0001 C CNN
+F 0 "#PWR037" H 7000 3400 50  0001 C CNN
 F 1 "GND" H 7005 3477 50  0000 C CNN
 F 2 "" H 7000 3650 50  0001 C CNN
 F 3 "" H 7000 3650 50  0001 C CNN
@@ -198,7 +113,7 @@ AR Path="/5FEF0F88/5EAFF770" Ref="#PWR0107"  Part="1"
 AR Path="/5FEA8A39/5EAFF770" Ref="#PWR0134"  Part="1" 
 AR Path="/5FEBBAE4/5EAFF770" Ref="#PWR021"  Part="1" 
 AR Path="/5FEBBAEE/5EAFF770" Ref="#PWR039"  Part="1" 
-F 0 "#PWR0107" H 7450 3000 50  0001 C CNN
+F 0 "#PWR039" H 7450 3000 50  0001 C CNN
 F 1 "+3.3V" H 7465 3323 50  0000 C CNN
 F 2 "" H 7450 3150 50  0001 C CNN
 F 3 "" H 7450 3150 50  0001 C CNN
@@ -224,7 +139,7 @@ AR Path="/5FEF0F88/5EAFF776" Ref="#PWR0108"  Part="1"
 AR Path="/5FEA8A39/5EAFF776" Ref="#PWR0135"  Part="1" 
 AR Path="/5FEBBAE4/5EAFF776" Ref="#PWR015"  Part="1" 
 AR Path="/5FEBBAEE/5EAFF776" Ref="#PWR033"  Part="1" 
-F 0 "#PWR0108" H 6450 2550 50  0001 C CNN
+F 0 "#PWR033" H 6450 2550 50  0001 C CNN
 F 1 "+BATT" H 6465 2873 50  0000 C CNN
 F 2 "" H 6450 2700 50  0001 C CNN
 F 3 "" H 6450 2700 50  0001 C CNN
@@ -261,8 +176,6 @@ F 5 "1724480002" H 6650 2800 50  0001 C CNN "MANF"
 $EndComp
 Wire Wire Line
 	6450 2700 6450 2800
-Text HLabel 4700 3600 0    50   Input ~ 0
-igniteA
 Text HLabel 7700 3600 2    50   Input ~ 0
 ~contA~
 Wire Wire Line
@@ -271,175 +184,6 @@ Wire Wire Line
 	7700 3600 7450 3600
 Wire Wire Line
 	6450 2900 6450 3350
-Wire Wire Line
-	4800 3600 5250 3600
-$Comp
-L power:GND #PWR?
-U 1 1 5F8F1C3B
-P 6150 3300
-AR Path="/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EAF9C8B/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB11141/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1278B/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12B7D/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12D6D/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1EA7C/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223E6/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EA/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EE/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223F2/5F8F1C3B" Ref="#PWR?"  Part="1" 
-AR Path="/5FEF0F88/5F8F1C3B" Ref="#PWR0109"  Part="1" 
-AR Path="/5FEA8A39/5F8F1C3B" Ref="#PWR0136"  Part="1" 
-AR Path="/5FEBBAE4/5F8F1C3B" Ref="#PWR013"  Part="1" 
-AR Path="/5FEBBAEE/5F8F1C3B" Ref="#PWR031"  Part="1" 
-F 0 "#PWR0109" H 6150 3050 50  0001 C CNN
-F 1 "GND" H 6155 3127 50  0000 C CNN
-F 2 "" H 6150 3300 50  0001 C CNN
-F 3 "" H 6150 3300 50  0001 C CNN
-	1    6150 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5F8F2775
-P 5250 3300
-AR Path="/5FEF0F88/5F8F2775" Ref="#PWR0110"  Part="1" 
-AR Path="/5FEA8A39/5F8F2775" Ref="#PWR0137"  Part="1" 
-AR Path="/5FEBBAE4/5F8F2775" Ref="#PWR011"  Part="1" 
-AR Path="/5FEBBAEE/5F8F2775" Ref="#PWR029"  Part="1" 
-F 0 "#PWR0110" H 5250 3150 50  0001 C CNN
-F 1 "+5V" H 5265 3473 50  0000 C CNN
-F 2 "" H 5250 3300 50  0001 C CNN
-F 3 "" H 5250 3300 50  0001 C CNN
-	1    5250 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L eec:TC4427AVOA U2
-U 1 1 5FEAE176
-P 5150 3600
-AR Path="/5FEF0F88/5FEAE176" Ref="U2"  Part="1" 
-AR Path="/5FEA8A39/5FEAE176" Ref="U3"  Part="1" 
-AR Path="/5FEBBAE4/5FEAE176" Ref="U4"  Part="1" 
-AR Path="/5FEBBAEE/5FEAE176" Ref="U5"  Part="1" 
-F 0 "U2" H 5700 3965 50  0000 C CNN
-F 1 "TC4427AVOA" H 5700 3874 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm" H 5150 4100 50  0001 L CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf" H 5150 4200 50  0001 L CNN
-F 4 "SOIC127P600-8" H 5150 4300 50  0001 L CNN "Code  IPC"
-F 5 "revF, Jan-2006" H 5150 4400 50  0001 L CNN "Datasheet Version"
-F 6 "8-Lead Plastic Small Outline (OA) - Narrow, 3.90mm Body [SOIC]" H 5150 4500 50  0001 L CNN "Package Description"
-F 7 "revBB, Aug-2009" H 5150 4600 50  0001 L CNN "Package Version"
-F 8 "IC" H 5150 4700 50  0001 L CNN "category"
-F 9 "1428922" H 5150 4800 50  0001 L CNN "ciiva ids"
-F 10 "8947a845eff1fcc9" H 5150 4900 50  0001 L CNN "library id"
-F 11 "Microchip" H 5150 5000 50  0001 L CNN "manufacturer"
-F 12 "SOIC-OA8" H 5150 5100 50  0001 L CNN "package"
-F 13 "1300356982" H 5150 5200 50  0001 L CNN "release date"
-F 14 "E4C2A832-774B-4DD9-8E04-A62ED241F389" H 5150 5300 50  0001 L CNN "vault revision"
-F 15 "yes" H 5150 5400 50  0001 L CNN "imported"
-	1    5150 3600
-	1    0    0    1   
-$EndComp
-$Comp
-L eec:TC4427AVOA U2
-U 2 1 5FEB047E
-P 5150 5350
-AR Path="/5FEF0F88/5FEB047E" Ref="U2"  Part="2" 
-AR Path="/5FEA8A39/5FEB047E" Ref="U3"  Part="2" 
-AR Path="/5FEBBAE4/5FEB047E" Ref="U4"  Part="2" 
-AR Path="/5FEBBAEE/5FEB047E" Ref="U5"  Part="2" 
-F 0 "U2" H 5700 4785 50  0000 C CNN
-F 1 "TC4427AVOA" H 5700 4876 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm" H 5150 5850 50  0001 L CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf" H 5150 5950 50  0001 L CNN
-F 4 "SOIC127P600-8" H 5150 6050 50  0001 L CNN "Code  IPC"
-F 5 "revF, Jan-2006" H 5150 6150 50  0001 L CNN "Datasheet Version"
-F 6 "8-Lead Plastic Small Outline (OA) - Narrow, 3.90mm Body [SOIC]" H 5150 6250 50  0001 L CNN "Package Description"
-F 7 "revBB, Aug-2009" H 5150 6350 50  0001 L CNN "Package Version"
-F 8 "IC" H 5150 6450 50  0001 L CNN "category"
-F 9 "1428922" H 5150 6550 50  0001 L CNN "ciiva ids"
-F 10 "8947a845eff1fcc9" H 5150 6650 50  0001 L CNN "library id"
-F 11 "Microchip" H 5150 6750 50  0001 L CNN "manufacturer"
-F 12 "SOIC-OA8" H 5150 6850 50  0001 L CNN "package"
-F 13 "1300356982" H 5150 6950 50  0001 L CNN "release date"
-F 14 "E4C2A832-774B-4DD9-8E04-A62ED241F389" H 5150 7050 50  0001 L CNN "vault revision"
-F 15 "yes" H 5150 7150 50  0001 L CNN "imported"
-	2    5150 5350
-	1    0    0    1   
-$EndComp
-$Comp
-L eec:TC4427AVOA U2
-U 3 1 5FEB1A77
-P 5150 1800
-AR Path="/5FEF0F88/5FEB1A77" Ref="U2"  Part="3" 
-AR Path="/5FEA8A39/5FEB1A77" Ref="U3"  Part="3" 
-AR Path="/5FEBBAE4/5FEB1A77" Ref="U4"  Part="3" 
-AR Path="/5FEBBAEE/5FEB1A77" Ref="U5"  Part="3" 
-F 0 "U2" H 5700 2065 50  0000 C CNN
-F 1 "TC4427AVOA" H 5700 1974 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm" H 5150 2300 50  0001 L CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf" H 5150 2400 50  0001 L CNN
-F 4 "SOIC127P600-8" H 5150 2500 50  0001 L CNN "Code  IPC"
-F 5 "revF, Jan-2006" H 5150 2600 50  0001 L CNN "Datasheet Version"
-F 6 "8-Lead Plastic Small Outline (OA) - Narrow, 3.90mm Body [SOIC]" H 5150 2700 50  0001 L CNN "Package Description"
-F 7 "revBB, Aug-2009" H 5150 2800 50  0001 L CNN "Package Version"
-F 8 "IC" H 5150 2900 50  0001 L CNN "category"
-F 9 "1428922" H 5150 3000 50  0001 L CNN "ciiva ids"
-F 10 "8947a845eff1fcc9" H 5150 3100 50  0001 L CNN "library id"
-F 11 "Microchip" H 5150 3200 50  0001 L CNN "manufacturer"
-F 12 "SOIC-OA8" H 5150 3300 50  0001 L CNN "package"
-F 13 "1300356982" H 5150 3400 50  0001 L CNN "release date"
-F 14 "E4C2A832-774B-4DD9-8E04-A62ED241F389" H 5150 3500 50  0001 L CNN "vault revision"
-F 15 "yes" H 5150 3600 50  0001 L CNN "imported"
-F 16 "TC4427AVOA-ND" H 5150 1800 50  0001 C CNN "DIGIKEY"
-F 17 "TC4427AVOA" H 5150 1800 50  0001 C CNN "MANF"
-	3    5150 1800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6150 1800
-NoConn ~ 5250 1800
-$Comp
-L power:+5V #PWR0111
-U 1 1 5FEC4D6E
-P 5250 2200
-AR Path="/5FEF0F88/5FEC4D6E" Ref="#PWR0111"  Part="1" 
-AR Path="/5FEA8A39/5FEC4D6E" Ref="#PWR0138"  Part="1" 
-AR Path="/5FEBBAE4/5FEC4D6E" Ref="#PWR07"  Part="1" 
-AR Path="/5FEBBAEE/5FEC4D6E" Ref="#PWR025"  Part="1" 
-F 0 "#PWR0111" H 5250 2050 50  0001 C CNN
-F 1 "+5V" H 5265 2373 50  0000 C CNN
-F 2 "" H 5250 2200 50  0001 C CNN
-F 3 "" H 5250 2200 50  0001 C CNN
-	1    5250 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FEC546E
-P 6150 2200
-AR Path="/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EAF9C8B/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB11141/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1278B/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12B7D/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12D6D/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1EA7C/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223E6/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EA/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EE/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223F2/5FEC546E" Ref="#PWR?"  Part="1" 
-AR Path="/5FEF0F88/5FEC546E" Ref="#PWR0112"  Part="1" 
-AR Path="/5FEA8A39/5FEC546E" Ref="#PWR0145"  Part="1" 
-AR Path="/5FEBBAE4/5FEC546E" Ref="#PWR08"  Part="1" 
-AR Path="/5FEBBAEE/5FEC546E" Ref="#PWR026"  Part="1" 
-F 0 "#PWR0112" H 6150 1950 50  0001 C CNN
-F 1 "GND" H 6155 2027 50  0000 C CNN
-F 2 "" H 6150 2200 50  0001 C CNN
-F 3 "" H 6150 2200 50  0001 C CNN
-	1    6150 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_FET:FDS6898A Q?
 U 2 1 5FED1C57
@@ -471,32 +215,6 @@ Wire Wire Line
 	6450 5100 6450 5150
 $Comp
 L power:GND #PWR?
-U 1 1 5FED1C7C
-P 4800 5650
-AR Path="/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EAF9C8B/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB11141/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1278B/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12B7D/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12D6D/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1EA7C/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223E6/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EA/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EE/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223F2/5FED1C7C" Ref="#PWR?"  Part="1" 
-AR Path="/5FEF0F88/5FED1C7C" Ref="#PWR0113"  Part="1" 
-AR Path="/5FEA8A39/5FED1C7C" Ref="#PWR0146"  Part="1" 
-AR Path="/5FEBBAE4/5FED1C7C" Ref="#PWR010"  Part="1" 
-AR Path="/5FEBBAEE/5FED1C7C" Ref="#PWR028"  Part="1" 
-F 0 "#PWR0113" H 4800 5400 50  0001 C CNN
-F 1 "GND" H 4805 5477 50  0000 C CNN
-F 2 "" H 4800 5650 50  0001 C CNN
-F 3 "" H 4800 5650 50  0001 C CNN
-	1    4800 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5FED1C82
 P 6450 5550
 AR Path="/5FED1C82" Ref="#PWR?"  Part="1" 
@@ -514,7 +232,7 @@ AR Path="/5FEF0F88/5FED1C82" Ref="#PWR0114"  Part="1"
 AR Path="/5FEA8A39/5FED1C82" Ref="#PWR0147"  Part="1" 
 AR Path="/5FEBBAE4/5FED1C82" Ref="#PWR018"  Part="1" 
 AR Path="/5FEBBAEE/5FED1C82" Ref="#PWR036"  Part="1" 
-F 0 "#PWR0114" H 6450 5300 50  0001 C CNN
+F 0 "#PWR036" H 6450 5300 50  0001 C CNN
 F 1 "GND" H 6455 5377 50  0000 C CNN
 F 2 "" H 6450 5550 50  0001 C CNN
 F 3 "" H 6450 5550 50  0001 C CNN
@@ -540,7 +258,7 @@ AR Path="/5FEF0F88/5FED1C88" Ref="#PWR0115"  Part="1"
 AR Path="/5FEA8A39/5FED1C88" Ref="#PWR0148"  Part="1" 
 AR Path="/5FEBBAE4/5FED1C88" Ref="#PWR024"  Part="1" 
 AR Path="/5FEBBAEE/5FED1C88" Ref="#PWR042"  Part="1" 
-F 0 "#PWR0115" H 7450 5400 50  0001 C CNN
+F 0 "#PWR042" H 7450 5400 50  0001 C CNN
 F 1 "GND" H 7455 5477 50  0000 C CNN
 F 2 "" H 7450 5650 50  0001 C CNN
 F 3 "" H 7450 5650 50  0001 C CNN
@@ -566,7 +284,7 @@ AR Path="/5FEF0F88/5FED1C8E" Ref="#PWR0116"  Part="1"
 AR Path="/5FEA8A39/5FED1C8E" Ref="#PWR0149"  Part="1" 
 AR Path="/5FEBBAE4/5FED1C8E" Ref="#PWR020"  Part="1" 
 AR Path="/5FEBBAEE/5FED1C8E" Ref="#PWR038"  Part="1" 
-F 0 "#PWR0116" H 7000 5150 50  0001 C CNN
+F 0 "#PWR038" H 7000 5150 50  0001 C CNN
 F 1 "GND" H 7005 5227 50  0000 C CNN
 F 2 "" H 7000 5400 50  0001 C CNN
 F 3 "" H 7000 5400 50  0001 C CNN
@@ -592,7 +310,7 @@ AR Path="/5FEF0F88/5FED1C94" Ref="#PWR0117"  Part="1"
 AR Path="/5FEA8A39/5FED1C94" Ref="#PWR0150"  Part="1" 
 AR Path="/5FEBBAE4/5FED1C94" Ref="#PWR023"  Part="1" 
 AR Path="/5FEBBAEE/5FED1C94" Ref="#PWR041"  Part="1" 
-F 0 "#PWR0117" H 7450 4750 50  0001 C CNN
+F 0 "#PWR041" H 7450 4750 50  0001 C CNN
 F 1 "+3.3V" H 7465 5073 50  0000 C CNN
 F 2 "" H 7450 4900 50  0001 C CNN
 F 3 "" H 7450 4900 50  0001 C CNN
@@ -618,7 +336,7 @@ AR Path="/5FEF0F88/5FED1C9A" Ref="#PWR0118"  Part="1"
 AR Path="/5FEA8A39/5FED1C9A" Ref="#PWR0151"  Part="1" 
 AR Path="/5FEBBAE4/5FED1C9A" Ref="#PWR017"  Part="1" 
 AR Path="/5FEBBAEE/5FED1C9A" Ref="#PWR035"  Part="1" 
-F 0 "#PWR0118" H 6450 4300 50  0001 C CNN
+F 0 "#PWR035" H 6450 4300 50  0001 C CNN
 F 1 "+BATT" H 6465 4623 50  0000 C CNN
 F 2 "" H 6450 4450 50  0001 C CNN
 F 3 "" H 6450 4450 50  0001 C CNN
@@ -655,8 +373,6 @@ F 5 "1724480002" H 6650 4550 50  0001 C CNN "MANF"
 $EndComp
 Wire Wire Line
 	6450 4450 6450 4550
-Text HLabel 4700 5350 0    50   Input ~ 0
-igniteB
 Text HLabel 7700 5350 2    50   Input ~ 0
 ~contB~
 Wire Wire Line
@@ -665,47 +381,6 @@ Wire Wire Line
 	7700 5350 7450 5350
 Wire Wire Line
 	6450 4650 6450 5100
-$Comp
-L power:GND #PWR?
-U 1 1 5FED1CAE
-P 6150 5050
-AR Path="/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EAF9C8B/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB11141/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1278B/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12B7D/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB12D6D/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB1EA7C/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223E6/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EA/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223EE/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5EB223F2/5FED1CAE" Ref="#PWR?"  Part="1" 
-AR Path="/5FEF0F88/5FED1CAE" Ref="#PWR0119"  Part="1" 
-AR Path="/5FEA8A39/5FED1CAE" Ref="#PWR0152"  Part="1" 
-AR Path="/5FEBBAE4/5FED1CAE" Ref="#PWR014"  Part="1" 
-AR Path="/5FEBBAEE/5FED1CAE" Ref="#PWR032"  Part="1" 
-F 0 "#PWR0119" H 6150 4800 50  0001 C CNN
-F 1 "GND" H 6155 4877 50  0000 C CNN
-F 2 "" H 6150 5050 50  0001 C CNN
-F 3 "" H 6150 5050 50  0001 C CNN
-	1    6150 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0120
-U 1 1 5FED1CB4
-P 5250 5050
-AR Path="/5FEF0F88/5FED1CB4" Ref="#PWR0120"  Part="1" 
-AR Path="/5FEA8A39/5FED1CB4" Ref="#PWR0153"  Part="1" 
-AR Path="/5FEBBAE4/5FED1CB4" Ref="#PWR012"  Part="1" 
-AR Path="/5FEBBAEE/5FED1CB4" Ref="#PWR030"  Part="1" 
-F 0 "#PWR0120" H 5250 4900 50  0001 C CNN
-F 1 "+5V" H 5265 5223 50  0000 C CNN
-F 2 "" H 5250 5050 50  0001 C CNN
-F 3 "" H 5250 5050 50  0001 C CNN
-	1    5250 5050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Q_DUAL_PMOS_S1G1D2S2G2D1 Q2
 U 1 1 5FFEBE27
@@ -721,7 +396,7 @@ F 3 "https://www.vishay.com/docs/68784/si1967dh.pdf" H 7400 3350 50  0001 C CNN
 F 4 "742-SI1967DH-T1-BE3CT-ND" H 7350 3350 50  0001 C CNN "DIGIKEY"
 F 5 "SI1967DH-T1-BE3" H 7350 3350 50  0001 C CNN "MANF"
 	1    7350 3350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:Q_DUAL_PMOS_S1G1D2S2G2D1 Q2
@@ -736,45 +411,12 @@ F 1 "Q_DUAL_PMOS_S1G1D2S2G2D1" H 7554 5055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 7400 5100 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/68784/si1967dh.pdf" H 7400 5100 50  0001 C CNN
 	2    7350 5100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 60046040
-P 4800 5500
-AR Path="/60046040" Ref="R?"  Part="1" 
-AR Path="/5EAF9C8B/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB11141/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB1278B/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB12B7D/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB12D6D/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB1EA7C/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB223E6/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB223EA/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB223EE/60046040" Ref="R?"  Part="1" 
-AR Path="/5EB223F2/60046040" Ref="R?"  Part="1" 
-AR Path="/5FEF0F88/60046040" Ref="R2"  Part="1" 
-AR Path="/5FEA8A39/60046040" Ref="R8"  Part="1" 
-AR Path="/5FEBBAE4/60046040" Ref="R14"  Part="1" 
-AR Path="/5FEBBAEE/60046040" Ref="R20"  Part="1" 
-F 0 "R2" H 4870 5546 50  0000 L CNN
-F 1 "50k" H 4870 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4730 5500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4800 5500 50  0001 C CNN
-F 4 "311-51KGRCT-ND" H 4800 5500 50  0001 C CNN "DIGIKEY"
-F 5 "RC0603JR-0751KL" H 4800 5500 50  0001 C CNN "MANF"
-	1    4800 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 5350 4800 5350
 Wire Wire Line
 	6450 5100 7000 5100
 Wire Wire Line
 	6450 3350 7000 3350
-Connection ~ 4800 5350
-Wire Wire Line
-	4800 5350 5250 5350
 $Comp
 L Device:R R?
 U 1 1 6004F7C7
@@ -895,4 +537,307 @@ $EndComp
 Connection ~ 7000 3350
 Wire Wire Line
 	7000 3350 7150 3350
+Connection ~ 4100 4950
+Wire Wire Line
+	4100 4950 3850 4950
+Wire Wire Line
+	4350 4950 4100 4950
+$Comp
+L power:GND #PWR?
+U 1 1 600801BC
+P 4100 4950
+AR Path="/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EAF9C8B/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB11141/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1278B/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB12B7D/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB12D6D/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1EA7C/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223E6/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223EA/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223EE/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223F2/600801BC" Ref="#PWR?"  Part="1" 
+AR Path="/5FEF0F88/600801BC" Ref="#PWR0109"  Part="1" 
+AR Path="/5FEA8A39/600801BC" Ref="#PWR0119"  Part="1" 
+AR Path="/5FEBBAE4/600801BC" Ref="#PWR0132"  Part="1" 
+AR Path="/5FEBBAEE/600801BC" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 4100 4700 50  0001 C CNN
+F 1 "GND" H 4105 4777 50  0000 C CNN
+F 2 "" H 4100 4950 50  0001 C CNN
+F 3 "" H 4100 4950 50  0001 C CNN
+	1    4100 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 4650
+Wire Wire Line
+	4100 4650 4350 4650
+Wire Wire Line
+	3850 4650 4100 4650
+$Comp
+L power:+5V #PWR0110
+U 1 1 6007E3D1
+P 4100 4650
+AR Path="/5FEF0F88/6007E3D1" Ref="#PWR0110"  Part="1" 
+AR Path="/5FEA8A39/6007E3D1" Ref="#PWR0120"  Part="1" 
+AR Path="/5FEBBAE4/6007E3D1" Ref="#PWR0133"  Part="1" 
+AR Path="/5FEBBAEE/6007E3D1" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 4100 4500 50  0001 C CNN
+F 1 "+5V" H 4115 4823 50  0000 C CNN
+F 2 "" H 4100 4650 50  0001 C CNN
+F 3 "" H 4100 4650 50  0001 C CNN
+	1    4100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6007C5F6
+P 4350 4800
+AR Path="/5FEA8A39/6007C5F6" Ref="C6"  Part="1" 
+AR Path="/5FEF0F88/6007C5F6" Ref="C4"  Part="1" 
+AR Path="/5FEBBAE4/6007C5F6" Ref="C8"  Part="1" 
+AR Path="/5FEBBAEE/6007C5F6" Ref="C10"  Part="1" 
+F 0 "C4" H 4465 4846 50  0000 L CNN
+F 1 "100nF" H 4465 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4388 4650 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+F 4 "399-1100-1-ND" H 4350 4800 50  0001 C CNN "DIGIKEY"
+F 5 "C0603C104Z3VACTU" H 4350 4800 50  0001 C CNN "MANF"
+	1    4350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6007BF82
+P 3850 4800
+AR Path="/5FEA8A39/6007BF82" Ref="C5"  Part="1" 
+AR Path="/5FEF0F88/6007BF82" Ref="C3"  Part="1" 
+AR Path="/5FEBBAE4/6007BF82" Ref="C7"  Part="1" 
+AR Path="/5FEBBAEE/6007BF82" Ref="C9"  Part="1" 
+F 0 "C3" H 3965 4846 50  0000 L CNN
+F 1 "4.7uF" H 3965 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3888 4650 50  0001 C CNN
+F 3 "~" H 3850 4800 50  0001 C CNN
+F 4 "1276-1784-1-ND" H 3850 4800 50  0001 C CNN "DIGIKEY"
+F 5 "CL10A475KO8NNNC" H 3850 4800 50  0001 C CNN "MANF"
+	1    3850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EAFF72B
+P 2100 3600
+AR Path="/5EAFF72B" Ref="R?"  Part="1" 
+AR Path="/5EAF9C8B/5EAFF72B" Ref="R1"  Part="1" 
+AR Path="/5EB11141/5EAFF72B" Ref="R?"  Part="1" 
+AR Path="/5EB1278B/5EAFF72B" Ref="R5"  Part="1" 
+AR Path="/5EB12B7D/5EAFF72B" Ref="R9"  Part="1" 
+AR Path="/5EB12D6D/5EAFF72B" Ref="R13"  Part="1" 
+AR Path="/5EB1EA7C/5EAFF72B" Ref="R17"  Part="1" 
+AR Path="/5EB223E6/5EAFF72B" Ref="R17"  Part="1" 
+AR Path="/5EB223EA/5EAFF72B" Ref="R21"  Part="1" 
+AR Path="/5EB223EE/5EAFF72B" Ref="R25"  Part="1" 
+AR Path="/5EB223F2/5EAFF72B" Ref="R29"  Part="1" 
+AR Path="/5FEF0F88/5EAFF72B" Ref="R1"  Part="1" 
+AR Path="/5FEA8A39/5EAFF72B" Ref="R7"  Part="1" 
+AR Path="/5FEBBAE4/5EAFF72B" Ref="R13"  Part="1" 
+AR Path="/5FEBBAEE/5EAFF72B" Ref="R19"  Part="1" 
+F 0 "R1" H 2170 3646 50  0000 L CNN
+F 1 "50k" H 2170 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2030 3600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2100 3600 50  0001 C CNN
+F 4 "311-51KGRCT-ND" H 2100 3600 50  0001 C CNN "DIGIKEY"
+F 5 "RC0603JR-0751KL" H 2100 3600 50  0001 C CNN "MANF"
+	1    2100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3450 2100 3450
+Connection ~ 2100 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5EAFF758
+P 2100 3750
+AR Path="/5EAFF758" Ref="#PWR?"  Part="1" 
+AR Path="/5EAF9C8B/5EAFF758" Ref="#PWR0101"  Part="1" 
+AR Path="/5EB11141/5EAFF758" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1278B/5EAFF758" Ref="#PWR0107"  Part="1" 
+AR Path="/5EB12B7D/5EAFF758" Ref="#PWR0113"  Part="1" 
+AR Path="/5EB12D6D/5EAFF758" Ref="#PWR0119"  Part="1" 
+AR Path="/5EB1EA7C/5EAFF758" Ref="#PWR0125"  Part="1" 
+AR Path="/5EB223E6/5EAFF758" Ref="#PWR0125"  Part="1" 
+AR Path="/5EB223EA/5EAFF758" Ref="#PWR0131"  Part="1" 
+AR Path="/5EB223EE/5EAFF758" Ref="#PWR0137"  Part="1" 
+AR Path="/5EB223F2/5EAFF758" Ref="#PWR0143"  Part="1" 
+AR Path="/5FEF0F88/5EAFF758" Ref="#PWR0103"  Part="1" 
+AR Path="/5FEA8A39/5EAFF758" Ref="#PWR0121"  Part="1" 
+AR Path="/5FEBBAE4/5EAFF758" Ref="#PWR09"  Part="1" 
+AR Path="/5FEBBAEE/5EAFF758" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 2100 3500 50  0001 C CNN
+F 1 "GND" H 2105 3577 50  0000 C CNN
+F 2 "" H 2100 3750 50  0001 C CNN
+F 3 "" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 2000 3450 0    50   Input ~ 0
+igniteA
+$Comp
+L power:GND #PWR?
+U 1 1 5FED1C7C
+P 2850 3850
+AR Path="/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EAF9C8B/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB11141/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1278B/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB12B7D/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB12D6D/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1EA7C/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223E6/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223EA/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223EE/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223F2/5FED1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5FEF0F88/5FED1C7C" Ref="#PWR0113"  Part="1" 
+AR Path="/5FEA8A39/5FED1C7C" Ref="#PWR0146"  Part="1" 
+AR Path="/5FEBBAE4/5FED1C7C" Ref="#PWR010"  Part="1" 
+AR Path="/5FEBBAEE/5FED1C7C" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 2850 3600 50  0001 C CNN
+F 1 "GND" H 2855 3677 50  0000 C CNN
+F 2 "" H 2850 3850 50  0001 C CNN
+F 3 "" H 2850 3850 50  0001 C CNN
+	1    2850 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 2750 3550 0    50   Input ~ 0
+igniteB
+$Comp
+L Device:R R?
+U 1 1 60046040
+P 2850 3700
+AR Path="/60046040" Ref="R?"  Part="1" 
+AR Path="/5EAF9C8B/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB11141/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB1278B/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB12B7D/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB12D6D/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB1EA7C/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB223E6/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB223EA/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB223EE/60046040" Ref="R?"  Part="1" 
+AR Path="/5EB223F2/60046040" Ref="R?"  Part="1" 
+AR Path="/5FEF0F88/60046040" Ref="R2"  Part="1" 
+AR Path="/5FEA8A39/60046040" Ref="R8"  Part="1" 
+AR Path="/5FEBBAE4/60046040" Ref="R14"  Part="1" 
+AR Path="/5FEBBAEE/60046040" Ref="R20"  Part="1" 
+F 0 "R2" H 2920 3746 50  0000 L CNN
+F 1 "50k" H 2920 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2780 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2850 3700 50  0001 C CNN
+F 4 "311-51KGRCT-ND" H 2850 3700 50  0001 C CNN "DIGIKEY"
+F 5 "RC0603JR-0751KL" H 2850 3700 50  0001 C CNN "MANF"
+	1    2850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3550 2850 3550
+Connection ~ 2850 3550
+Wire Wire Line
+	2850 3550 3300 3550
+Wire Wire Line
+	2100 3450 3300 3450
+NoConn ~ 4900 4050
+NoConn ~ 4900 3950
+Text Label 4900 3550 0    50   ~ 0
+igniteA_driven
+Text Label 4900 3450 0    50   ~ 0
+igniteB_driven
+$Comp
+L star-common-lib:TC4427AEUA U2
+U 1 1 600E586C
+P 3300 3450
+AR Path="/5FEF0F88/600E586C" Ref="U2"  Part="1" 
+AR Path="/5FEA8A39/600E586C" Ref="U3"  Part="1" 
+AR Path="/5FEBBAE4/600E586C" Ref="U4"  Part="1" 
+AR Path="/5FEBBAEE/600E586C" Ref="U5"  Part="1" 
+F 0 "U2" H 4100 3837 60  0000 C CNN
+F 1 "TC4427AEUA" H 4100 3731 60  0000 C CNN
+F 2 "star-common-lib:TC4427AEUA" H 4100 3690 60  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf" H 4100 3913 60  0001 C CNN
+F 4 "TC4427AEUA-ND" H 4100 3815 50  0001 C CNN "DIGIKEY"
+F 5 "TC4427AEUA" H 4100 3724 50  0001 C CNN "MANF"
+	1    3300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEC546E
+P 3300 4150
+AR Path="/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EAF9C8B/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB11141/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1278B/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB12B7D/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB12D6D/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB1EA7C/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223E6/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223EA/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223EE/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB223F2/5FEC546E" Ref="#PWR?"  Part="1" 
+AR Path="/5FEF0F88/5FEC546E" Ref="#PWR0112"  Part="1" 
+AR Path="/5FEA8A39/5FEC546E" Ref="#PWR0145"  Part="1" 
+AR Path="/5FEBBAE4/5FEC546E" Ref="#PWR08"  Part="1" 
+AR Path="/5FEBBAEE/5FEC546E" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 3300 3900 50  0001 C CNN
+F 1 "GND" H 3305 3977 50  0000 C CNN
+F 2 "" H 3300 4150 50  0001 C CNN
+F 3 "" H 3300 4150 50  0001 C CNN
+	1    3300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5FEC4D6E
+P 3300 3950
+AR Path="/5FEF0F88/5FEC4D6E" Ref="#PWR0111"  Part="1" 
+AR Path="/5FEA8A39/5FEC4D6E" Ref="#PWR0138"  Part="1" 
+AR Path="/5FEBBAE4/5FEC4D6E" Ref="#PWR07"  Part="1" 
+AR Path="/5FEBBAEE/5FEC4D6E" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 3300 3800 50  0001 C CNN
+F 1 "+5V" H 3315 4123 50  0000 C CNN
+F 2 "" H 3300 3950 50  0001 C CNN
+F 3 "" H 3300 3950 50  0001 C CNN
+	1    3300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS6898A Q?
+U 1 1 5EAFF725
+P 6350 3600
+AR Path="/5EAFF725" Ref="Q?"  Part="1" 
+AR Path="/5EAF9C8B/5EAFF725" Ref="Q1"  Part="1" 
+AR Path="/5EB11141/5EAFF725" Ref="Q?"  Part="1" 
+AR Path="/5EB1278B/5EAFF725" Ref="Q2"  Part="1" 
+AR Path="/5EB12B7D/5EAFF725" Ref="Q3"  Part="1" 
+AR Path="/5EB12D6D/5EAFF725" Ref="Q4"  Part="1" 
+AR Path="/5EB1EA7C/5EAFF725" Ref="Q5"  Part="1" 
+AR Path="/5EB223E6/5EAFF725" Ref="Q5"  Part="1" 
+AR Path="/5EB223EA/5EAFF725" Ref="Q6"  Part="1" 
+AR Path="/5EB223EE/5EAFF725" Ref="Q7"  Part="1" 
+AR Path="/5EB223F2/5EAFF725" Ref="Q8"  Part="1" 
+AR Path="/5FEF0F88/5EAFF725" Ref="Q1"  Part="1" 
+AR Path="/5FEA8A39/5EAFF725" Ref="Q3"  Part="1" 
+AR Path="/5FEBBAE4/5EAFF725" Ref="Q5"  Part="1" 
+AR Path="/5FEBBAEE/5EAFF725" Ref="Q7"  Part="1" 
+F 0 "Q1" H 6554 3646 50  0000 L CNN
+F 1 "FDS6898A" H 6554 3555 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6550 3525 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDS6898A.pdf" H 6350 3600 50  0001 L CNN
+F 4 "FDS6898ACT-ND" H 6350 3600 50  0001 C CNN "DIGIKEY"
+F 5 "FDS6898A" H 6350 3600 50  0001 C CNN "MANF"
+	1    6350 3600
+	1    0    0    -1  
+$EndComp
+Text Label 6150 3600 2    50   ~ 0
+igniteA_driven
+Text Label 6150 5350 2    50   ~ 0
+igniteB_driven
 $EndSCHEMATC
