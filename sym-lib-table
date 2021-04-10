@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name star-common-lib)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/star-common-lib.lib)(options "")(descr ""))
-  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/mosfet_driver_tc4427avoa/eec.lib)(options "")(descr ""))
-  (lib (name 2021-01-19_05-01-45)(type Legacy)(uri /home/neelayj/Downloads/tc4427aeua/KiCAD/2021-01-19_05-01-45/2021-01-19_05-01-45.lib)(options "")(descr ""))
+  (lib (name blackpowder-ignition-rescue)(type Legacy)(uri ${KIPRJMOD}/blackpowder-ignition-rescue.lib)(options "")(descr ""))
 )
